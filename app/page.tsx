@@ -1,5 +1,25 @@
 import Link from "next/link";
-import Image from "next/image";
+
+const academiaLevels = [
+  {
+    title: "Early Years Education",
+    range: "PP1 – PP2",
+    href: "/academia/early-years",
+    description: "Foundational learning through play-based, competency-driven activities that build curiosity and core skills.",
+  },
+  {
+    title: "Lower Primary",
+    range: "Grade 1 – Grade 3",
+    href: "/academia/lower-primary",
+    description: "Building strong literacy, numeracy, and social foundations under the CBC framework.",
+  },
+  {
+    title: "Upper Primary & Junior Secondary",
+    range: "Grade 4 – Grade 9",
+    href: "/academia/upper-primary",
+    description: "Deepening core competencies and introducing specialized pathways as learners approach JSS.",
+  },
+];
 
 export default function Home() {
   return (
@@ -76,6 +96,26 @@ export default function Home() {
               responsible, faith-driven members of society.
             </p>
             <p className="font-semibold text-navy">— The Headteacher</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Academia Levels Grid */}
+      <section className="bg-navy-light/5 py-20">
+        <div className="max-w-6xl mx-auto px-6">
+          <h2 className="text-2xl font-bold text-navy text-center mb-10">Academic Journey at Matulo</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {academiaLevels.map((level) => (
+              <Link
+                key={level.href}
+                href={level.href}
+                className="bg-white rounded-lg shadow p-6 hover:shadow-lg transition border-b-4 border-gold block"
+              >
+                <p className="text-xs font-semibold text-gold-dark uppercase mb-1">{level.range}</p>
+                <h3 className="text-lg font-bold text-navy mb-2">{level.title}</h3>
+                <p className="text-sm text-navy-dark/80">{level.description}</p>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
