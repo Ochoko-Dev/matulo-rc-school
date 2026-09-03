@@ -21,6 +21,13 @@ const academiaLevels = [
   },
 ];
 
+const stats = [
+  { label: "Total Students", value: "500+" },
+  { label: "Qualified Teachers", value: "25+" },
+  { label: "Years of Academic History", value: "30+" },
+  { label: "Extra-Curricular Clubs", value: "10+" },
+];
+
 export default function Home() {
   return (
     <main>
@@ -117,6 +124,18 @@ export default function Home() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Key Statistics Counter */}
+      <section className="bg-navy py-16">
+        <div className="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          {stats.map((stat) => (
+            <div key={stat.label}>
+              <p className="text-4xl font-bold text-gold">{stat.value}</p>
+              <p className="text-sm text-white/80 mt-2">{stat.label}</p>
+            </div>
+          ))}
         </div>
       </section>
     </main>
