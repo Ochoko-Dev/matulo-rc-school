@@ -28,6 +28,13 @@ const stats = [
   { label: "Extra-Curricular Clubs", value: "10+" },
 ];
 
+const facilities = [
+  "Classrooms",
+  "Sports Field",
+  "Computer Room",
+  "Library",
+];
+
 export default function Home() {
   return (
     <main>
@@ -134,6 +141,21 @@ export default function Home() {
             <div key={stat.label}>
               <p className="text-4xl font-bold text-gold">{stat.value}</p>
               <p className="text-sm text-white/80 mt-2">{stat.label}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Facilities / Life at Matulo */}
+      <section className="max-w-6xl mx-auto px-6 py-20">
+        <h2 className="text-2xl font-bold text-navy text-center mb-10">Life at Matulo</h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          {facilities.map((facility) => (
+            <div key={facility} className="text-center">
+              <div className="aspect-square bg-navy-light/10 rounded-lg flex items-center justify-center border border-navy-light/20 text-navy-light text-sm mb-3">
+                Photo
+              </div>
+              <p className="font-semibold text-navy">{facility}</p>
             </div>
           ))}
         </div>
