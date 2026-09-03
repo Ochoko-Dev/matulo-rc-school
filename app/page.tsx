@@ -30,6 +30,33 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Quick Info Cards — overlapping the hero bottom edge */}
+      <section className="max-w-6xl mx-auto px-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 -mt-12 relative z-10">
+          <div className="bg-white rounded-lg shadow-lg p-6 border-t-4 border-gold">
+            <h3 className="text-lg font-bold text-navy mb-2">CBC Curriculum Focus</h3>
+            <p className="text-sm text-navy-dark/80">
+              Competency-based learning that develops each learner&apos;s
+              unique strengths from Early Years through Junior Secondary.
+            </p>
+          </div>
+          <div className="bg-white rounded-lg shadow-lg p-6 border-t-4 border-gold">
+            <h3 className="text-lg font-bold text-navy mb-2">Holistic & Spiritual Growth</h3>
+            <p className="text-sm text-navy-dark/80">
+              Rooted in Catholic values, guiding pupils to grow in character,
+              faith, and community alongside academics.
+            </p>
+          </div>
+          <div className="bg-white rounded-lg shadow-lg p-6 border-t-4 border-gold">
+            <h3 className="text-lg font-bold text-navy mb-2">Co-Curricular & Sports Excellence</h3>
+            <p className="text-sm text-navy-dark/80">
+              A full calendar of sports, clubs, and societies that build
+              teamwork, discipline, and lifelong interests.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
