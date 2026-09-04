@@ -10,7 +10,7 @@ export default function Footer() {
           <h3 className="font-bold text-gold mb-2">Contact</h3>
           <p>📞 +254 700 000 000</p>
           <p>✉️ info@matulorcschool.ac.ke</p>
-          <p>📍 Matulo, Nyeri County</p>
+          <p>📍 P.O. Box 621-50205, Webuye</p>
         </div>
         <div>
           <h3 className="font-bold text-gold mb-2">Quick Links</h3>

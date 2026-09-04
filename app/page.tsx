@@ -48,7 +48,7 @@ export default async function Home() {
             <br className="hidden md:block" /> and Moral Values.
           </h1>
           <p className="mt-4 text-white/80 max-w-xl mx-auto">
-            A Catholic-sponsored primary school in Nyeri, dedicated to raising
+            A primary school in Webuye, dedicated to raising
             confident, well-rounded learners under the CBC curriculum.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">

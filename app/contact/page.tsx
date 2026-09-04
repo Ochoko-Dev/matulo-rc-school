@@ -19,7 +19,7 @@ export default function Contact() {
           </div>
           <div>
             <h2 className="font-bold text-navy mb-1">Address</h2>
-            <p className="text-navy-dark/80 text-sm">Matulo, Nyeri County, Kenya</p>
+            <p className="text-navy-dark/80 text-sm">P.O. Box 621-50205, Webuye, Kenya</p>
           </div>
           <div>
             <h2 className="font-bold text-navy mb-1">Office Hours</h2>
@@ -29,8 +29,8 @@ export default function Contact() {
 
         <div className="w-full h-64 md:h-full rounded-lg overflow-hidden shadow">
           <iframe
-            title="Matulo RC Primary School Location"
-            src="https://www.google.com/maps?q=Nyeri,Kenya&output=embed"
+            title="Matulo School Location"
+            src="https://www.google.com/maps?q=Webuye,Kenya&output=embed"
             width="100%"
             height="100%"
             style={{ border: 0 }}

@@ -9,7 +9,7 @@ export default function Header() {
           <div className="flex flex-wrap gap-4">
             <span>📞 +254 700 000 000</span>
             <span>✉️ info@matulorcschool.ac.ke</span>
-            <span>📍 Matulo, Nyeri</span>
+            <span>📍 P.O. Box 621-50205, Webuye</span>
           </div>
           <Link
             href="/admissions"
