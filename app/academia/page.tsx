@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Academia | Matulo RC Primary School",
+  description: "Explore the CBC curriculum at Matulo RC Primary School, from Early Years through Junior Secondary.",
+};
+
 const levels = [
   {
     title: "Early Years Education",

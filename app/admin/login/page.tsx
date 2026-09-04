@@ -35,30 +35,14 @@ export default function AdminLogin() {
       <form onSubmit={handleLogin} className="bg-white rounded-lg shadow p-6 space-y-4">
         <div>
           <label className="block text-sm font-semibold text-navy mb-1">Email</label>
-          <input
-            type="email"
-            required
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            className="w-full border border-navy-light/20 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gold"
-          />
+          <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} className="w-full border border-navy-light/20 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gold" />
         </div>
         <div>
           <label className="block text-sm font-semibold text-navy mb-1">Password</label>
-          <input
-            type="password"
-            required
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            className="w-full border border-navy-light/20 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gold"
-          />
+          <input type="password" required value={password} onChange={(e) => setPassword(e.target.value)} className="w-full border border-navy-light/20 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gold" />
         </div>
         {error && <p className="text-red-600 text-sm">{error}</p>}
-        <button
-          type="submit"
-          disabled={loading}
-          className="w-full bg-gold text-navy-dark font-semibold py-2.5 rounded hover:bg-gold-light transition disabled:opacity-60"
-        >
+        <button type="submit" disabled={loading} className="w-full bg-gold text-navy-dark font-semibold py-2.5 rounded hover:bg-gold-light transition disabled:opacity-60">
           {loading ? "Logging in..." : "Log In"}
         </button>
       </form>

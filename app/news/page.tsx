@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 
+export const metadata = {
+  title: "News & Announcements | Matulo RC Primary School",
+  description: "Latest news and announcements from Matulo RC Primary School.",
+};
+
 export default async function NewsList() {
   const { data: newsPosts } = await supabase
     .from("news_posts")

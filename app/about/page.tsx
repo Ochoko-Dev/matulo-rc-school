@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "About Us | Matulo RC Primary School",
+  description: "Learn about Matulo RC Primary School's history, vision, mission, and leadership.",
+};
+
 export default function About() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-16">
@@ -19,48 +24,28 @@ export default function About() {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <Link
-          href="/about/history"
-          className="bg-white rounded-lg shadow p-6 border-b-4 border-gold hover:shadow-lg transition block"
-        >
+        <Link href="/about/history" className="bg-white rounded-lg shadow p-6 border-b-4 border-gold hover:shadow-lg transition block">
           <h2 className="text-lg font-bold text-navy mb-2">History & Catholic Identity</h2>
-          <p className="text-sm text-navy-dark/70">
-            Learn about our founding, our Catholic sponsorship, and the
-            values that continue to guide us today.
-          </p>
+          <p className="text-sm text-navy-dark/70">Learn about our founding, our Catholic sponsorship, and the values that continue to guide us today.</p>
         </Link>
-        <Link
-          href="/about/administration"
-          className="bg-white rounded-lg shadow p-6 border-b-4 border-gold hover:shadow-lg transition block"
-        >
+        <Link href="/about/administration" className="bg-white rounded-lg shadow p-6 border-b-4 border-gold hover:shadow-lg transition block">
           <h2 className="text-lg font-bold text-navy mb-2">Administration & BOM</h2>
-          <p className="text-sm text-navy-dark/70">
-            Meet the school administration and Board of Management guiding
-            Matulo RC Primary School.
-          </p>
+          <p className="text-sm text-navy-dark/70">Meet the school administration and Board of Management guiding Matulo RC Primary School.</p>
         </Link>
       </div>
 
       <section className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
         <div>
           <h3 className="font-bold text-navy mb-2">Our Vision</h3>
-          <p className="text-sm text-navy-dark/70">
-            To be a leading Catholic primary school forming learners of
-            academic excellence and strong moral character.
-          </p>
+          <p className="text-sm text-navy-dark/70">To be a leading Catholic primary school forming learners of academic excellence and strong moral character.</p>
         </div>
         <div>
           <h3 className="font-bold text-navy mb-2">Our Mission</h3>
-          <p className="text-sm text-navy-dark/70">
-            To nurture every learner holistically through quality CBC
-            education grounded in Catholic values.
-          </p>
+          <p className="text-sm text-navy-dark/70">To nurture every learner holistically through quality CBC education grounded in Catholic values.</p>
         </div>
         <div>
           <h3 className="font-bold text-navy mb-2">Core Values</h3>
-          <p className="text-sm text-navy-dark/70">
-            Faith, Integrity, Excellence, Discipline, and Community.
-          </p>
+          <p className="text-sm text-navy-dark/70">Faith, Integrity, Excellence, Discipline, and Community.</p>
         </div>
       </section>
     </main>

@@ -1,4 +1,9 @@
 export default function Contact() {
+
+export const metadata = {
+  title: "Contact Us | Matulo RC Primary School",
+  description: "Get in touch with Matulo RC Primary School u2014 phone, email, address, and location.",
+};
   return (
     <main className="max-w-4xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold text-navy mb-6">Contact Us</h1>

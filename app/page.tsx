@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 
+export const metadata = {
+  title: "Matulo RC Primary School | Home",
+  description: "A Catholic-sponsored primary school in Webuye, nurturing academic excellence and moral values through the CBC curriculum.",
+};
+
 const academiaLevels = [
   {
     title: "Early Years Education",

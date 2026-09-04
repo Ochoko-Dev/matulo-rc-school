@@ -1,4 +1,9 @@
 export default function History() {
+
+export const metadata = {
+  title: "History & Catholic Identity | Matulo RC Primary School",
+  description: "The history and Catholic identity of Matulo RC Primary School.",
+};
   return (
     <main className="max-w-4xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold text-navy mb-6">History & Catholic Identity</h1>

@@ -1,4 +1,9 @@
 export default function Administration() {
+
+export const metadata = {
+  title: "Administration & BOM | Matulo RC Primary School",
+  description: "Meet the administration and Board of Management at Matulo RC Primary School.",
+};
   return (
     <main className="max-w-4xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold text-navy mb-6">School Administration & Board of Management</h1>
