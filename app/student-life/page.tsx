@@ -1,8 +1,8 @@
 export default function StudentLife() {
 
 export const metadata = {
-  title: "Student Life & Co-Curricular | Matulo RC Primary School",
-  description: "Sports, clubs, societies, and pastoral care at Matulo RC Primary School.",
+  title: "Student Life & Co-Curricular | Matulo FYM Primary School",
+  description: "Sports, clubs, societies, and pastoral care at Matulo FYM Primary School.",
 };
   return (
     <main className="max-w-4xl mx-auto px-6 py-16">

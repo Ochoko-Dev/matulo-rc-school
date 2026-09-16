@@ -1,8 +1,8 @@
 export default function LowerPrimary() {
 
 export const metadata = {
-  title: "Lower Primary (Grade 1u20133) | Matulo RC Primary School",
-  description: "Building core literacy and numeracy for Lower Primary learners at Matulo RC Primary School.",
+  title: "Lower Primary (Grade 1u20133) | Matulo FYM Primary School",
+  description: "Building core literacy and numeracy for Lower Primary learners at Matulo FYM Primary School.",
 };
   return (
     <main className="max-w-4xl mx-auto px-6 py-16">

@@ -8,7 +8,7 @@ export default function Header() {
         <div className="max-w-6xl mx-auto px-6 py-2 flex flex-wrap items-center justify-between gap-2">
           <div className="flex flex-wrap gap-4">
             <span>📞 +254 700 000 000</span>
-            <span>✉️ info@matulorcschool.ac.ke</span>
+            <span>✉️ info@matulofymschool.ac.ke</span>
             <span>📍 P.O. Box 621-50205, Webuye</span>
           </div>
           <Link
@@ -23,7 +23,7 @@ export default function Header() {
       {/* Primary nav */}
       <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link href="/" className="text-xl font-bold text-navy">
-          Matulo RC Primary School
+          Matulo FYM Primary School
         </Link>
         <ul className="hidden md:flex gap-6 text-navy-dark font-medium">
           <li><Link href="/" className="hover:text-gold-dark">Home</Link></li>

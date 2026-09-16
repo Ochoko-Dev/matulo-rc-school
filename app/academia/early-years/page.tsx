@@ -1,8 +1,8 @@
 export default function EarlyYears() {
 
 export const metadata = {
-  title: "Early Years Education (PP1u2013PP2) | Matulo RC Primary School",
-  description: "Play-based, foundational learning for PP1 and PP2 learners at Matulo RC Primary School.",
+  title: "Early Years Education (PP1u2013PP2) | Matulo FYM Primary School",
+  description: "Play-based, foundational learning for PP1 and PP2 learners at Matulo FYM Primary School.",
 };
   return (
     <main className="max-w-4xl mx-auto px-6 py-16">

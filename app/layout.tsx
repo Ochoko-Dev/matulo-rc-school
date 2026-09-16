@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Matulo RC Primary School",
+  title: "Matulo FYM Primary School",
   description: "Nurturing Academic Excellence and Moral Values.",
 };
 

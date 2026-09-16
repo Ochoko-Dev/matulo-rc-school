@@ -1,14 +1,14 @@
 export default function Administration() {
 
 export const metadata = {
-  title: "Administration & BOM | Matulo RC Primary School",
-  description: "Meet the administration and Board of Management at Matulo RC Primary School.",
+  title: "Administration & BOM | Matulo FYM Primary School",
+  description: "Meet the administration and Board of Management at Matulo FYM Primary School.",
 };
   return (
     <main className="max-w-4xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold text-navy mb-6">School Administration & Board of Management</h1>
       <p className="text-navy-dark/80 mb-10">
-        Matulo RC Primary School is guided by a dedicated administration and
+        Matulo FYM Primary School is guided by a dedicated administration and
         Board of Management (BOM) committed to the school&apos;s academic
         standards, welfare, and Catholic identity.
       </p>

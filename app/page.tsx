@@ -2,7 +2,7 @@ import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 
 export const metadata = {
-  title: "Matulo RC Primary School | Home",
+  title: "Matulo FYM Primary School | Home",
   description: "A Catholic-sponsored primary school in Webuye, nurturing academic excellence and moral values through the CBC curriculum.",
 };
 
@@ -93,7 +93,7 @@ export default async function Home() {
           </div>
           <div>
             <h2 className="text-2xl font-bold text-navy mb-4">A Message from Our Headteacher</h2>
-            <p className="text-navy-dark/80 mb-4">Welcome to Matulo RC Primary School, where we are committed to nurturing every child&apos;s academic, moral, and spiritual growth. Our dedicated teachers and staff work together to create a warm, disciplined environment where pupils are encouraged to discover their potential and grow into responsible, faith-driven members of society.</p>
+            <p className="text-navy-dark/80 mb-4">Welcome to Matulo FYM Primary School, where we are committed to nurturing every child&apos;s academic, moral, and spiritual growth. Our dedicated teachers and staff work together to create a warm, disciplined environment where pupils are encouraged to discover their potential and grow into responsible, faith-driven members of society.</p>
             <p className="font-semibold text-navy">— The Headteacher</p>
           </div>
         </div>

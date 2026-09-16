@@ -2,8 +2,8 @@ import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 
 export const metadata = {
-  title: "News & Announcements | Matulo RC Primary School",
-  description: "Latest news and announcements from Matulo RC Primary School.",
+  title: "News & Announcements | Matulo FYM Primary School",
+  description: "Latest news and announcements from Matulo FYM Primary School.",
 };
 
 export default async function NewsList() {

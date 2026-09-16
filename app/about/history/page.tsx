@@ -1,14 +1,14 @@
 export default function History() {
 
 export const metadata = {
-  title: "History & Catholic Identity | Matulo RC Primary School",
-  description: "The history and Catholic identity of Matulo RC Primary School.",
+  title: "History & Catholic Identity | Matulo FYM Primary School",
+  description: "The history and Catholic identity of Matulo FYM Primary School.",
 };
   return (
     <main className="max-w-4xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold text-navy mb-6">History & Catholic Identity</h1>
       <p className="text-navy-dark/80 mb-4">
-        Matulo RC Primary School was established under the sponsorship of
+        Matulo FYM Primary School was established under the sponsorship of
         the Catholic Church, with a mission to provide quality education
         rooted in strong moral and spiritual formation to the children of
         our community in Nyeri.

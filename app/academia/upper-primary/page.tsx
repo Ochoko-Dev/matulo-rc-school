@@ -1,7 +1,7 @@
 export default function UpperPrimary() {
 
 export const metadata = {
-  title: "Upper Primary & Junior Secondary (Grade 4u20139) | Matulo RC Primary School",
+  title: "Upper Primary & Junior Secondary (Grade 4u20139) | Matulo FYM Primary School",
   description: "Deepening subject mastery and CBC pathway subjects for Upper Primary and JSS learners.",
 };
   return (

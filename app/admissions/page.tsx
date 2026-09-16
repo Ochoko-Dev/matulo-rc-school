@@ -1,8 +1,8 @@
 import AdmissionsForm from "@/components/AdmissionsForm";
 
 export const metadata = {
-  title: "Admissions | Matulo RC Primary School",
-  description: "How to enroll your child at Matulo RC Primary School u2014 steps, requirements, and inquiry form.",
+  title: "Admissions | Matulo FYM Primary School",
+  description: "How to enroll your child at Matulo FYM Primary School u2014 steps, requirements, and inquiry form.",
 };
 
 const steps = [
@@ -30,7 +30,7 @@ export default function Admissions() {
       <h1 className="text-3xl font-bold text-navy mb-6">Admissions</h1>
       <p className="text-navy-dark/80 mb-12">
         We welcome inquiries from parents and guardians looking to enroll
-        their children at Matulo RC Primary School. Follow the steps below
+        their children at Matulo FYM Primary School. Follow the steps below
         to begin the admissions process.
       </p>
 

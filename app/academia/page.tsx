@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Academia | Matulo RC Primary School",
-  description: "Explore the CBC curriculum at Matulo RC Primary School, from Early Years through Junior Secondary.",
+  title: "Academia | Matulo FYM Primary School",
+  description: "Explore the CBC curriculum at Matulo FYM Primary School, from Early Years through Junior Secondary.",
 };
 
 const levels = [
@@ -31,7 +31,7 @@ export default function Academia() {
     <main className="max-w-4xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold text-navy mb-6">Academia at Matulo</h1>
       <p className="text-navy-dark/80 mb-4">
-        Matulo RC Primary School follows the Competency-Based Curriculum
+        Matulo FYM Primary School follows the Competency-Based Curriculum
         (CBC), designed to nurture each learner&apos;s individual strengths
         through practical, skills-focused learning rather than rote
         memorization.

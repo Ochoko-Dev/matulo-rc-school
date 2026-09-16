@@ -1,16 +1,16 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "About Us | Matulo RC Primary School",
-  description: "Learn about Matulo RC Primary School's history, vision, mission, and leadership.",
+  title: "About Us | Matulo FYM Primary School",
+  description: "Learn about Matulo FYM Primary School's history, vision, mission, and leadership.",
 };
 
 export default function About() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-16">
-      <h1 className="text-3xl font-bold text-navy mb-6">About Matulo RC Primary School</h1>
+      <h1 className="text-3xl font-bold text-navy mb-6">About Matulo FYM Primary School</h1>
       <p className="text-navy-dark/80 mb-4">
-        Matulo RC Primary School is a Catholic-sponsored public primary
+        Matulo FYM Primary School is a Catholic-sponsored public primary
         school committed to nurturing academic excellence alongside strong
         moral and spiritual values. For decades, we have guided learners
         through a holistic education that prepares them for both examinations
@@ -30,7 +30,7 @@ export default function About() {
         </Link>
         <Link href="/about/administration" className="bg-white rounded-lg shadow p-6 border-b-4 border-gold hover:shadow-lg transition block">
           <h2 className="text-lg font-bold text-navy mb-2">Administration & BOM</h2>
-          <p className="text-sm text-navy-dark/70">Meet the school administration and Board of Management guiding Matulo RC Primary School.</p>
+          <p className="text-sm text-navy-dark/70">Meet the school administration and Board of Management guiding Matulo FYM Primary School.</p>
         </Link>
       </div>
 
