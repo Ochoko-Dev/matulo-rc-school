@@ -1,9 +1,9 @@
-export default function StudentLife() {
-
 export const metadata = {
   title: "Student Life & Co-Curricular | Matulo FYM Primary School",
   description: "Sports, clubs, societies, and pastoral care at Matulo FYM Primary School.",
 };
+
+export default function StudentLife() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold text-navy mb-6">Student Life & Co-Curricular</h1>
@@ -26,12 +26,11 @@ export const metadata = {
       <section className="mb-12">
         <h2 className="text-xl font-bold text-navy mb-4">Clubs, Societies & Pastoral Care</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-navy-dark/80">
-          <div className="bg-white rounded shadow p-4 border-l-4 border-gold">Catholic Young Christian Students (YCS)</div>
           <div className="bg-white rounded shadow p-4 border-l-4 border-gold">Debate & Public Speaking Club</div>
           <div className="bg-white rounded shadow p-4 border-l-4 border-gold">Environmental / 4K Club</div>
           <div className="bg-white rounded shadow p-4 border-l-4 border-gold">Music & Drama Club</div>
           <div className="bg-white rounded shadow p-4 border-l-4 border-gold">Guidance & Counseling</div>
-          <div className="bg-white rounded shadow p-4 border-l-4 border-gold">Spiritual & Pastoral Care Program</div>
+          <div className="bg-white rounded shadow p-4 border-l-4 border-gold">Pastoral Care Program</div>
         </div>
       </section>
 

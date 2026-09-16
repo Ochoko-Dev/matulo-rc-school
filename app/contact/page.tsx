@@ -1,9 +1,9 @@
-export default function Contact() {
-
 export const metadata = {
   title: "Contact Us | Matulo FYM Primary School",
-  description: "Get in touch with Matulo FYM Primary School u2014 phone, email, address, and location.",
+  description: "Get in touch with Matulo FYM Primary School — phone, email, address, and location.",
 };
+
+export default function Contact() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold text-navy mb-6">Contact Us</h1>
@@ -34,7 +34,7 @@ export const metadata = {
 
         <div className="w-full h-64 md:h-full rounded-lg overflow-hidden shadow">
           <iframe
-            title="Matulo School Location"
+            title="Matulo FYM Primary School Location"
             src="https://www.google.com/maps?q=Webuye,Kenya&output=embed"
             width="100%"
             height="100%"

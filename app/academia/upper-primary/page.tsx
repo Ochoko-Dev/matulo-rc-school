@@ -1,9 +1,9 @@
-export default function UpperPrimary() {
-
 export const metadata = {
-  title: "Upper Primary & Junior Secondary (Grade 4u20139) | Matulo FYM Primary School",
+  title: "Upper Primary & Junior Secondary (Grade 4–9) | Matulo FYM Primary School",
   description: "Deepening subject mastery and CBC pathway subjects for Upper Primary and JSS learners.",
 };
+
+export default function UpperPrimary() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-16">
       <p className="text-xs font-semibold text-gold-dark uppercase mb-2">Grade 4 – Grade 9</p>
