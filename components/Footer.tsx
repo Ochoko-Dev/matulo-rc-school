@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-navy-dark text-white mt-20">
@@ -14,9 +16,9 @@ export default function Footer() {
         </div>
         <div>
           <h3 className="font-bold text-gold mb-2">Quick Links</h3>
-          <p>Admissions</p>
-          <p>Academic Calendar</p>
-          <p>Contact Us</p>
+          <p><Link href="/admissions" className="hover:text-gold-light">Admissions</Link></p>
+          <p><Link href="/academic-calendar" className="hover:text-gold-light">Academic Calendar</Link></p>
+          <p><Link href="/contact" className="hover:text-gold-light">Contact Us</Link></p>
         </div>
       </div>
       <div className="text-center text-xs text-white/60 py-4 border-t border-white/10">

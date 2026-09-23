@@ -10,8 +10,23 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Matulo FYM Primary School",
-  description: "Nurturing Academic Excellence and Moral Values.",
+  title: {
+    default: "Matulo FYM Primary School",
+    template: "%s",
+  },
+  description: "Nurturing Academic Excellence and Moral Values. A primary school in Webuye offering CBC education from Early Years through Junior Secondary.",
+  openGraph: {
+    title: "Matulo FYM Primary School",
+    description: "Nurturing Academic Excellence and Moral Values.",
+    siteName: "Matulo FYM Primary School",
+    locale: "en_KE",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Matulo FYM Primary School",
+    description: "Nurturing Academic Excellence and Moral Values.",
+  },
 };
 
 export default function RootLayout({
