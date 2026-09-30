@@ -16,11 +16,12 @@ export default function Contact() {
         <div className="space-y-6">
           <div>
             <h2 className="font-bold text-navy mb-1">Phone</h2>
-            <p className="text-navy-dark/80 text-sm">+254 700 000 000</p>
+            <p className="text-navy-dark/80 text-sm">+254 700 686 549</p>
           </div>
           <div>
             <h2 className="font-bold text-navy mb-1">Email</h2>
-            <p className="text-navy-dark/80 text-sm">info@matulofymschool.ac.ke</p>
+            <p className="text-navy-dark/80 text-sm">Junior School: matulofymschool8@gmail.com</p>
+        <p className="text-navy-dark/80 text-sm">Primary School: matulofymschool9@gmail.com</p>
           </div>
           <div>
             <h2 className="font-bold text-navy mb-1">Address</h2>

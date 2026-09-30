@@ -7,8 +7,8 @@ export default function Header() {
       <div className="bg-navy text-white text-sm">
         <div className="max-w-6xl mx-auto px-6 py-2 flex flex-wrap items-center justify-between gap-2">
           <div className="flex flex-wrap gap-4">
-            <span>📞 +254 700 000 000</span>
-            <span>✉️ info@matulofymschool.ac.ke</span>
+            <span>📞 +254 700 686 549</span>
+            <span>✉️ matulofymschool8@gmail.com / matulofymschool9@gmail.com</span>
             <span>📍 P.O. Box 621-50205, Webuye</span>
           </div>
           <Link

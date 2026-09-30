@@ -10,8 +10,8 @@ export default function Footer() {
         </div>
         <div>
           <h3 className="font-bold text-gold mb-2">Contact</h3>
-          <p>📞 +254 700 000 000</p>
-          <p>✉️ info@matulofymschool.ac.ke</p>
+          <p>📞 +254 700 686 549</p>
+          <p>✉️ matulofymschool8@gmail.com / matulofymschool9@gmail.com</p>
           <p>📍 P.O. Box 621-50205, Webuye</p>
         </div>
         <div>
